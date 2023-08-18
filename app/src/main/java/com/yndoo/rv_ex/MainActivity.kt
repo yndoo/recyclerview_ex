@@ -19,18 +19,17 @@ class MainActivity : AppCompatActivity() {
         items.add("c")
 
         val rv = findViewById<RecyclerView>(R.id.rv)
-        val rvAdapter = RVAdapter(items)
+        val rvAdapter = RVAdapter(items) //어댑터에 데이터덩어리 보냄
 
-        rv.adapter = rvAdapter
+        rv.adapter = rvAdapter          //어댑터 연결
         rv.layoutManager = LinearLayoutManager(this)
 
+        //클릭 이벤트 처리
         rvAdapter.itemClick = object : RVAdapter.ItemClick{
             override fun OnClick(view: View, position: Int) {
                 Toast.makeText(baseContext, items[position], Toast.LENGTH_SHORT).show()
             }
-
         }
-
 
     }
 }

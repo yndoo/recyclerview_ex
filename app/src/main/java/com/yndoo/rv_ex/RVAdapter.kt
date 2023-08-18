@@ -41,5 +41,4 @@ class RVAdapter(val items : MutableList<String>) : RecyclerView.Adapter<RVAdapte
             rvitem.text = item
         }
     }
-
 }

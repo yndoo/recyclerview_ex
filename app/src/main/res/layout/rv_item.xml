@@ -10,5 +10,4 @@
         android:text="rvitem"
         android:textSize="20sp"
         android:layout_margin="20dp"/>
-
 </LinearLayout>
