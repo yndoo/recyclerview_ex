@@ -1,5 +1,7 @@
 몇년 전에 안드로이드 공부를 처음 할 때 네이버 블로그에 ListView 사용법만 기록했었다. (RecyclerView는 너무 복잡하다고 생각했었음) 그래서 그 이후로 리스트 화면(?)을 제작할 일이 생길 때마다 내 블로그 글을 보고 따라하느라 ListView만 사용하게 됐다. 오늘 RecyclerView에 대해 기록하면, 앞으로 RecyclerView를 사용하겠지!
 
+[벨로그에서 보기](https://velog.io/@kuronuma_daisy/Android-RecyclerView-%EC%82%AC%EC%9A%A9%EB%B2%95-RecyclerView-%ED%81%B4%EB%A6%AD-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EC%B2%98%EB%A6%AC-%EA%B8%B0%EB%A1%9D)
+
 # 구조
 큰 구조는 ListView와 비슷하다.
 ![](https://velog.velcdn.com/images/kuronuma_daisy/post/7ebdddf8-23db-4ba2-b628-db454a823018/image.png)
